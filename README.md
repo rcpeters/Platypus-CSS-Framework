@@ -11,14 +11,22 @@ Main repository: https://github.com/hexplus/PlatypusCSS
 12 rows
  
 Target:
-	.xs[rows] 		-> Mobile devices
-	.s[rows] 		-> Tablet
-	.m[rows] 		-> PC
-	.l[rows] 		-> PC (widescreen) 
+.xs[rows] 		-> Mobile devices
 
-	Example: xs10    -> Extra Small target, 10 columns 
+.s[rows] 		-> Tablet
+
+.m[rows] 		-> PC
+
+.l[rows] 		-> PC (widescreen) 
+
+
+Example: xs10    -> Extra Small target, 10 columns 
+
 
 .[target]l 	-> push (left)
+
 .[target]r 	-> pull (right)
+
 .[target]o[rows] 	-> offset (margin-left), example: mo2
-					   xs doesn't has offset
+
+*** xs doesn't has offset
