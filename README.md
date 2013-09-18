@@ -40,7 +40,7 @@ Minimalistic CSS Stylesheet for Responsive Web Design [Based on Bootstrap 3]. It
 
 ## HOW TO USE PLATYPUS ##
 
-Just include platypus.min.css stylesheet and the conditional tags for IE7 to your HTML files, as follows:
+Just include platypus.min.css stylesheet to your HTML files, as follows:
 
 ```html
 <!DOCTYPE html>
@@ -49,14 +49,11 @@ Just include platypus.min.css stylesheet and the conditional tags for IE7 to you
     <title>Platypus template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Platypus -->
-    <link href="css/platypus.min.css" rel="stylesheet" media="screen">
-    <!--[if lt IE 8]>
-  		<link rel="stylesheet" href="css/platypus.ie7.min.css">
-	<![endif]-->    
+    <link href="css/platypus.css" rel="stylesheet" media="screen">    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
+      <script src="../js/html5shiv.js"></script>
+      <script src="../js/respond.min.js"></script>
     <![endif]-->    
   </head>
   <body>
