@@ -2,7 +2,7 @@
 
 Minimalistic CSS Stylesheet for Responsive Web Design [Based on Bootstrap 3]. It is not a Framework. It includes Normalize.
 
-## GETING STARTED ##
+## GETTING STARTED ##
 
 	Comparison between Bootstrap (version 2.3 and 3) and Platypus
 
