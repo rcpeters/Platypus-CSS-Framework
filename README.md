@@ -71,10 +71,10 @@ Platypus uses 12 colums for every row. You can use infinite rows, but only 12 co
 
 	Target:
 
-	.xs[rows] 		Extra Small -> Mobile devices 
-	.s[rows] 		Small       -> Tablet
-	.m[rows] 		Mediaum     -> PC
-	.l[rows] 		Large       -> PC (widescreen) 
+	.xs[colums] 		Extra Small -> Mobile devices 
+	.s[colums] 		Small       -> Tablet
+	.m[colums] 		Mediaum     -> PC
+	.l[colums] 		Large       -> PC (widescreen) 
 
 Example of a predefined Platypus class: 
 
@@ -84,7 +84,7 @@ Example of a predefined Platypus class:
 
 	.[target]r 	-> pull (right)
 
-	.[target]o[rows] 	-> offset (margin-left), example: mo2
+	.[target]o[colums] 	-> offset (margin-left), example: mo2
 
 	*** xs doesn't has offset
 
