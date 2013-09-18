@@ -6,7 +6,7 @@ Minimalistic CSS Stylesheet for Responsive Web Design [Based on Bootstrap 3]. It
 
 	Comparison between Bootstrap (version 2.3 and 3) and Platypus
 
-	```html
+```html
 <!-- Bootstrap 2.3 (You need to specify if the content will be fluid) -->
 <div class="container-fluid">
 	<div class="row-fluid">
@@ -64,7 +64,6 @@ Just include platypus.min.css stylesheet and the conditional tags for IE7 to you
   </body>
 </html>
 ```
-
 
 Main container elements:
 
