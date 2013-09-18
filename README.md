@@ -67,14 +67,14 @@ Main container elements:
 	.box  -> Main container
 	.row  -> A row
 
-Platypus uses 12 colums for every row. You can use infinite rows, but only 12 colums per row. 
+Platypus uses 12 columns for every row. You can use infinite rows, but only 12 columns per row. 
 
 	Target:
 
-	.xs[colums] 		Extra Small -> Mobile devices 
-	.s[colums] 		Small       -> Tablet
-	.m[colums] 		Mediaum     -> PC
-	.l[colums] 		Large       -> PC (widescreen) 
+	.xs[columns] 		Extra Small -> Mobile devices 
+	.s[columns] 		Small       -> Tablet
+	.m[columns] 		Mediaum     -> PC
+	.l[columns] 		Large       -> PC (widescreen) 
 
 Example of a predefined Platypus class: 
 
@@ -84,7 +84,7 @@ Example of a predefined Platypus class:
 
 	.[target]r 	-> pull (right)
 
-	.[target]o[colums] 	-> offset (margin-left), example: mo2
+	.[target]o[columns] 	-> offset (margin-left), example: mo2
 
 	*** xs doesn't has offset
 
