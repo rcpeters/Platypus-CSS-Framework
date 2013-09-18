@@ -71,8 +71,8 @@ Main container elements:
 	.box  -> Main container
 	.row  -> A row
 
-Platypus uses 12 colums for every row. You can use infinite rows, but only 12 colums per row.
- 
+Platypus uses 12 colums for every row. You can use infinite rows, but only 12 colums per row. 
+
 	Target:
 
 	.xs[rows] 		Extra Small -> Mobile devices 
@@ -96,4 +96,4 @@ Example of a predefined Platypus class:
 
 * Fran Ramírez Monge
 * Contact: info@hexplusoft.com
-* Website: www.franrmz.com	
+* Website: www.franrmz.com
