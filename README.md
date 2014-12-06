@@ -1,6 +1,6 @@
-# PlatypusCSS #
+# Platypus CSS Framework (Work in progress)#
 
-Minimalistic CSS Framework for Responsive Web Design [Based on Bootflat, but without depending on Bootstrap, it has its own core].
+Minimalistic CSS Framework for Responsive Web Design [Based on Bootflat, but without depending on Bootstrap, it has its own core]. Work in progress, currently you can use the default functionality for RWD. Some components like buttons, labels, badgets and text input are already added.
 
 ## GETTING STARTED ##
 
