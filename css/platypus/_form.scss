@@ -1,0 +1,46 @@
+@include exports("form") {
+	.form-group{
+		margin-bottom: $spacing;
+	}
+
+	.form-control {
+		display: block;
+		width: 100%;
+		height: 34px;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		&:focus,
+		&:active{
+			border: 1px solid $blue-low-dark;
+			box-shadow: none;
+			background-image: none;
+			outline: 0;
+		}
+	}
+
+	.has-feedback {
+		position: relative;
+
+	}
+
+	.has-error{
+		&.checkbox,
+		&.checkbox-inline,
+		&.control-label,
+		&.help-block, 
+		&.radio, 
+		&.radio-inline {
+			color: $red-high-dark;
+		}
+	}
+
+	//WIP...
+}

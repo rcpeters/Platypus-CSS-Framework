@@ -2,49 +2,47 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Test Platypus</title>
+		<title>Platypus CSS Framework Test</title>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/platypus.css">
 	</head>
 	<body>
-		<div class="box">
+		<div class="container">
 			<div class="row">
-				<div class="m-3 s-6 xs-6">Esta es una prueba</div>
-				<div class="m-9 s-6 xs-6">Esta es una prueba</div>				
+				<div class="mobile-6">This is a test</div>
+				<div class="mobile-6">This is a test</div>				
 			</div>
 			<div class="row">
-				<div class="m-3"><button class="btn normal block">Normal</button></div>
-				<div class="m-3"><button class="btn default block">Default</button></div>
-				<div class="m-3"><button class="btn primary block">Primary</button></div>
-				<div class="m-3"><button class="btn success block">Success</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn normal block">Normal</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn default block">Default</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn primary block">Primary</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn success block">Success</button></div>
 			</div>
 			<div class="row">
-				<div class="m-3"><button class="btn info block">Info</button></div>
-				<div class="m-3"><button class="btn warning block">Warning</button></div>
-				<div class="m-3"><button class="btn danger block">Danger</button></div>
-				<div class="m-3"><button class="btn danger block">Danger</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn info block">Info</button></div>
+				<div class="desktop-3 tablet-3 mobile-12"><button class="btn warning block">Warning</button></div>
+				<div class="desktop-3 tablet-3 mobile-6"><button class="btn danger block">Danger</button></div>
+				<div class="desktop-3 tablet-3 mobile-6"><button class="btn danger block">Danger</button></div>
 			</div>
 			<div class="row">
-				<div class="m-6">
+				<div class="desktop-6 tablet-6 mobile-12">
 					<span class="lbl normal">Normal</span>
 					<span class="lbl default">Default</span>
 					<span class="lbl warning">Default</span>
 				</div>	
-				<div class="m-6">
+				<div class="desktop-6 tablet-6 mobile-12">
 					<span class="badge normal">Normal</span>
 					<span class="badge default">Default</span>
 					<span class="badge warning">Default</span>
 				</div>
-			</div>	
-			
-		
+			</div>
+			<div class="row">
+				<div class="desktop-6 tablet-6 mobile-12">
+					<input type="text" class="form-control">
+				</div>
+				<div class="desktop-6 tablet-6 mobile-12"></div>
+			</div>
 		</div>
-		
-
-			
-			
-
-		
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 		<script src="js/prefixfree.min.js"></script>
