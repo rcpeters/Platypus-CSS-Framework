@@ -1,4 +1,4 @@
-# Platypus CSS Framework (Work in progress)#
+# Platypus CSS Framework (WIP)#
 
 Minimalistic CSS Framework for Responsive Web Design. Work in progress, currently you can use the default functionality for RWD. Some components like buttons, labels, badgets and text input are already added.
 
