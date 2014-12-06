@@ -1,0 +1,92 @@
+@include exports("status") {
+	.lbl,
+	.badge,
+	.base{
+		&:focus,
+		&:active{
+			box-shadow: none;
+			background-image: none;
+				outline: 0;
+		}
+		&.normal{
+			background: $gray-medium-dark;
+			color: $white;
+		}
+		&.default{
+			background: $white;
+			border: 1px solid $gray-medium-dark;
+			color: $gray-high-dark;
+		}
+		&.primary{
+			background: $blue-low-dark;
+			border: 1px solid transparent;
+			color: $white;
+		}
+		&.success{
+			background: $green-high-dark;
+			border: 1px solid transparent;
+			color: $white;
+		}
+		&.info{
+			background: $green-low-dark;
+			border: 1px solid transparent;
+			color: $white;
+		}
+		&.warning{
+			background: $yellow-dark;
+			border: 1px solid transparent;
+			color: $white;
+		}
+		&.danger{
+			background: $red-high-dark;
+			border: 1px solid transparent;
+			color: $white;
+		}
+	}
+
+	 .btn{
+	 	@extend .base;
+		&.normal{
+			&:hover{
+				background: $gray-medium-light;
+			}
+		}
+		&.default{
+			&:hover{
+				background: $gray-medium-dark;
+				color: $white;
+			}
+		}
+		&.primary{
+			&:hover{
+				background: $blue-low-light;
+				color: $white;
+			}
+		}
+		&.success{
+			&:hover{
+				background: $green-high-light;
+				color: $white;
+			}
+		}
+		&.info{
+			&:hover{
+				background: $green-low-light;
+				color: $white;
+			}
+		}
+		&.warning{
+			&:hover{
+				background: $yellow-light;
+				color: $white;
+			}
+		}
+		&.danger{
+			&:hover{
+				background: $red-high-light;
+				color: $white;
+			}
+		}
+	}
+	
+}
