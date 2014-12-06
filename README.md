@@ -79,7 +79,7 @@ Example of a predefined Platypus class:
 
 	.[target]r 	-> pull (right)
 
-	.[target]o[columns] 	-> offset (margin-left), example: mo2
+	.[target]o[columns] 	-> offset (margin-left)
 
 	*** mobile doesn't has offset
 
