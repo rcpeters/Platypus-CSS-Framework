@@ -12,10 +12,10 @@ You can see a demo downloading the repository and opening up the index.html file
 <!-- Bootstrap 3 (Already fluid) --> 
 <div class="container">
 	<div class="row">
-		<div class="col-md-8 col-sm-8 col-xs-6">
+		<div class="col-md-8 col-sm-4 col-xs-6">
 			This is a test
 		</div>
-		<div class="col-md-8 col-sm-8 col-xs-6">
+		<div class="col-md-4 col-sm-8 col-xs-6">
 			Testing Bootstrap 3
 		</div>
 	</div>
@@ -24,7 +24,7 @@ You can see a demo downloading the repository and opening up the index.html file
 <!-- Platypus (Already fluid) --> 
 <div class="container"> 
 	<div class="row">
-		<div class="desktop-8 tablet-8 mobile-6">
+		<div class="desktop-8 tablet-4 mobile-6">
 			This is a test
 		</div>
 		<div class="desktop-4 tablet-8 mobile-6">
